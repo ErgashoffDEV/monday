@@ -1,0 +1,40 @@
+.navbar-item img {
+    width: 7rem;
+}
+
+#card {
+    min-height: 600px;
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.form{
+    padding: 20px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.form label{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form input{
+    width: 100%;
+    height: 45px;
+    margin: 10px auto;
+    border: 1px solid #bbb;
+    outline: none;
+    padding-left: 10px;
+}
+
+.hidden{
+    display: none;
+}
